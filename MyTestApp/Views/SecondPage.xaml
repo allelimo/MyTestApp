@@ -9,17 +9,23 @@
     <Grid x:Name="ContentArea" Margin="{StaticResource MediumLeftRightMargin}">
         <Grid
             Background="{ThemeResource SystemControlPageBackgroundChromeLowBrush}">
-            <RelativePanel/>
-            <StackPanel x:Name="sinistra" Margin="20">
-                <TextBox x:Name="CustomerName" Header="Customer Name 1" Margin="0,24,0,0" HorizontalAlignment ="Left" />
+            <RelativePanel>
+                <StackPanel x:Name="sinistra" Margin="0" Background="red" >
+                    <TextBox x:Name="CustomerName" Header="Customer Name 1" Margin="0,24,0,0" HorizontalAlignment ="Left" />
+                    <TextBox x:Name="CustomerName3" Header="Customer Name 3" Margin="0,24,0,0" HorizontalAlignment ="Left" />
+                </StackPanel>
 
-            </StackPanel>
+                <StackPanel x:Name="destra"  Margin="24,0,0,0" RelativePanel.RightOf="sinistra" Background="Aqua" >
+                    <TextBox x:Name="CustomerName2" Header="Customer Name 2" Margin="0,24,0,0" HorizontalAlignment ="Center" />
+                    <TextBox x:Name="CustomerName4" Header="Customer Name 2" Margin="0,24,0,0" HorizontalAlignment ="Center" />
+                </StackPanel>
+                
+                <StackPanel x:Name="tre"  Margin="24,0,0,0" RelativePanel.RightOf="destra" Background="Yellow" >
+                    <TextBox x:Name="CustomerName5" Header="Customer Name 2" Margin="0,24,0,0" HorizontalAlignment ="Center" />
+                    <TextBox x:Name="CustomerName6" Header="Customer Name 2" Margin="0,24,0,0" HorizontalAlignment ="Center" />
+                </StackPanel>
 
-            <StackPanel x:Name="destra"  Margin="20" RelativePanel.RightOf="sinistra">
-                <TextBox x:Name="CustomerName2" Header="Customer Name 2" Margin="0,24,0,0" HorizontalAlignment ="Center" />
-
-            </StackPanel>
-
+            </RelativePanel>
             <!--
                 The SystemControlPageBackgroundChromeLowBrush background represents where you should place your content. 
                 Place your content here.

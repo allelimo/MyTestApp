@@ -28,6 +28,7 @@
             -->
             <winui:NavigationViewItem x:Uid="Shell_Main" helpers:NavHelper.NavigateTo="views:MainPage" />
             <winui:NavigationViewItem x:Uid="Shell_Second" helpers:NavHelper.NavigateTo="views:SecondPage" />
+            <winui:NavigationViewItem x:Uid="Shell_Third" helpers:NavHelper.NavigateTo="views:ThirdPage" />
         </winui:NavigationView.MenuItems>
         <Grid>
             <Frame x:Name="shellFrame" />

@@ -3,8 +3,8 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <RootNamespace>MyTestApp.Core</RootNamespace>
-    <AssemblyVersion>1.0.7423.14315</AssemblyVersion>
-    <FileVersion>1.0.7423.14315</FileVersion>
+    <AssemblyVersion>1.0.7423.36903</AssemblyVersion>
+    <FileVersion>1.0.7423.36903</FileVersion>
   </PropertyGroup>
 
    <ItemGroup>

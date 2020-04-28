@@ -181,4 +181,8 @@
     <value>parameter must be an Enum name!</value>
     <comment>Parameter must be an Enum name in enum to boolean converter</comment>
   </data>
+  <data name="Shell_Third.Content" xml:space="preserve">
+    <value>Third</value>
+    <comment>Navigation view item name for Third</comment>
+  </data>
 </root>
